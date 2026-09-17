@@ -1,7 +1,7 @@
 {
-  "manifestVersion": 1,
-  "updated": "2026-09-03",
-  "describesGameVersion": "0.9.9.1",
+  "manifestVersion": 2,
+  "updated": "2026-09-15",
+  "describesGameVersion": "0.9.9.2",
   "doc": [
     "WHAT THIS IS",
     "  The launcher's own list of what a downloaded Girl Life archive looks like",
@@ -70,7 +70,7 @@
     "                       The update check compares the packs a player has",
     "                       against it. It cannot be derived from",
     "                       describesGameVersion: the newest core image pack is",
-    "                       0.9.9 while the newest game is 0.9.9.1, so comparing",
+    "                       0.9.9 while the newest game is 0.9.9.2, so comparing",
     "                       a pack against the game's version would report every",
     "                       healthy install as out of date.",
     "  entriesAreArchives   the archive is a container of archives — at least",
@@ -115,7 +115,7 @@
   "signatures": [
     {
       "id": "gameFile",
-      "latestVersion": "0.9.9.1",
+      "latestVersion": "0.9.9.2",
       "role": "gameFile",
       "label": "Game file (.qsp)",
       "container": "qsp",
